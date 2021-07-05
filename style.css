@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+section{
+    margin-top: 2%;
+}
+.flex-container{
+    display: flex;
+}
+.orange{
+    color: orangered;
+    font-style:italic;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+    line-height: 33px;
+    padding-bottom: 20px;
+}
+.half-width{
+    width: 50%;
+    margin: 2% 7%;
+    padding: 5px 0 0 20px;
+    /* border: 2px solid black; */
+}
+.button{
+    text-decoration: none;
+    color: black;
+    /* background-color: orange; */
+    background-image: linear-gradient(#ff9900, #ff4b4b);
+    padding: 10px 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.mid{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#women{
+    padding-left: 10%;
+    width: 85%;
+}
