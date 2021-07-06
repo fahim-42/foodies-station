@@ -22,16 +22,15 @@ h2{
 }
 h3{
     font-size: 25px;
+    text-decoration: underline 3px dotted;
 }
 p{
+    color: rgb(40,40,40);
     font-size: 20px;
     line-height: 25px;
     padding: 10px;
 }
-.top{
-    /* background:rgb(241,228,214); */
-}
-#recipe-text{
+#text-decor{
     padding-top: 2px;
     text-align: center;
 }
@@ -86,4 +85,8 @@ p{
 footer{
     background: rgb(0, 0, 30);
     color: whitesmoke;
+}
+footer p{
+    color: whitesmoke;
+    text-align: center;
 }
