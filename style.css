@@ -4,9 +4,6 @@ body{
     font-family: 'Playfair Display', serif;
     background: rgba(206, 186, 148, 0.65);
 }
-/* section{
-    margin-top: 2%;
-} */
 .flex-container{
     display: flex;
 }
@@ -23,6 +20,15 @@ h2{
 h3{
     font-size: 25px;
     text-decoration: underline 3px dotted;
+}
+h4{
+    color: whitesmoke;
+    margin: 0 auto;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    width: 20%;
 }
 p{
     color: rgb(40,40,40);
@@ -51,7 +57,7 @@ p{
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
-.mid{
+.importance{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
@@ -60,7 +66,6 @@ p{
     width: 85%;
 }
 .recipe-item{
-    /* background: rgb(214, 189, 144); */
     background: rgba(99, 99, 99, 0.301);
     margin-left: 6%;
     width: 25%;
@@ -89,4 +94,33 @@ footer{
 footer p{
     color: whitesmoke;
     text-align: center;
+}
+nav{
+    height: 40px;
+    background: brown;
+}
+nav ul{
+    width: 80%;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+nav li{
+    color:white;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+}
+nav li a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+nav li:active{
+    background-color: goldenrod;
+}
+nav li:hover{
+    background-color: #111;
 }
